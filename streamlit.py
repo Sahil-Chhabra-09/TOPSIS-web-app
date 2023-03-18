@@ -8,6 +8,7 @@ import re
 
 def main():
     st.title("TOPSIS(MCDM) Web App")
+    st.write("[GitHub Tutorial](https://github.com/Sahil-Chhabra-09/TOPSIS-Package)")
     st.text("TOPSIS is a method for Multiple Criteria Decision Making, this app allows it to be accessed easily")
     file_upload = st.file_uploader('Upload csv file containing only characteristics and not names of objects to be ranked')
     if file_upload is not None:
